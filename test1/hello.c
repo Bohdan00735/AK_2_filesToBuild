@@ -40,7 +40,7 @@ MODULE_AUTHOR("Bohdan Melniichuk IO-81");
 MODULE_DESCRIPTION("First training kernel module wich repeat phrase");
 MODULE_LICENSE("Dual BSD/GPL");
 
-static uint amount = 0;
+static uint amount = 1;
 module_param(amount,uint,0);
 MODULE_PARM_DESC(amount, "That`s how many times the line should be printed");
 

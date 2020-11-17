@@ -1,6 +1,6 @@
 #include "hello1.h"
 
-static uint amount = 0;
+static uint amount =1;
 module_param(amount,uint,0);
 MODULE_PARM_DESC(amount, "That`s how many times the line should be printed");
 EXPORT_SYMBOL(amount);
